@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wdth,wght@87.5,900&display=swap");
+
+@font-face {
+  font-family: "suravaram";
+  src: url("./fonts/Suravaram.ttf");
+}
+
+@font-face {
+  font-family: "noto";
+  src: url("./fonts/NotoSerifTelugu-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "devanagari";
+  src: url("./fonts/NotoSerifDevanagari-VariableFont_wdth\,wght.ttf");
+}
+
+.headingNav {
+  text-align: center;
+}
+
+.mainHeading {
+  font-size: 2.15rem;
+  color: sienna;
+  font-family: "Noto Sans Telugu", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 899;
+  font-style: italic;
+  font-variation-settings: "wdth" 87.5;
+  /* display: inline-block; */
+  background-color: #fef9e7;
+  opacity: 0.9;
+}
+
+.indexUL {
+  font-size: 1.5rem;
+  color: cornflowerblue;
+  font-family: "suravaram";
+  display: inline-block;
+  /* overflow: auto; */
+  width: 959px;
+  height: 350px;
+}
+
+.pic {
+  width: 500px;
+  height: 370px;
+  opacity: 0.9;
+}
+
+.indexUL2 {
+  font-size: 1.3rem;
+  font-family: "noto";
+  font-optical-sizing: auto;
+  font-weight: 601;
+  font-style: italic;
+  color: cornflowerblue;
+  /* text-align: left; */
+}
+
+.subHeading {
+  font-size: 1.7rem;
+  opacity: 0.9;
+}
+
+.indexUL2 li::marker {
+  content: "👉 ";
+  opacity: 0.9;
+}
+
+.indexUL3 {
+  list-style-type: none;
+  font-size: 1.6rem;
+  font-family: "devanagari";
+  font-optical-sizing: auto;
+  font-weight: 412;
+  font-variation-settings: "wdth" 82;
+  color: cornflowerblue;
+  font-style: italic;
+}
+
+.indexBody {
+  background-color: #fff;
+  /* opacity: 0.9; */
+}
